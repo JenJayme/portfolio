@@ -1,6 +1,7 @@
 body {
   background-color: rgba(0, 0, 0, 0.9);
-  background-image: url("../images/milky-way-darken.png");
+  /* background-image: url("../images/milky-way-darken.png"); */
+  background-size: contain;
 }
 
 p {
@@ -49,6 +50,7 @@ footer {
 
 .container {
   margin: 5%;
+  height: fit-content;
 }
 
 /* Add some content at the bottom of the video/page */
@@ -103,6 +105,10 @@ footer {
   .navbar-light .navbar-nav .menu-item {
     padding-left: 10px;
     color:#ababab;
+  }
+
+  .menuItem:hover {
+    text-shadow: 0px 0px 6px 6px cadetblue;
   }
 
   /* Styles the button used to pause/play the video */
