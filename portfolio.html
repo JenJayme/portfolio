@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+  <!--Styling-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <link type="text/css" rel="stylesheet" href="Assets/materialize/materialize.min.css" media="screen,projection">
+
+  <link rel="stylesheet" type="text/css" href="Assets/css/style.css">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cabin&family=Inconsolata&family=Nunito&family=Nunito+Sans&family=Pacifico&family=Quicksand&family=Rubik&family=VT323&display=swap"
+    rel="stylesheet">
+
+
+  <!--Script-->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <script type="text/javascript" src="script.js"></script>
+
+</head>
+
+<body>
+
+  <!--Navigation Bar with sidebar slide-out function on mobile-->
+  <nav>
+    <div class="nav-wrapper pink darken-4">
+      <a href="#" class="brand-logo center">Jen Jayme</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+
+      <ul class="left hide-on-med-and-down">
+        <li><a id="home" href="index.html">Home</a></li>
+        <li><a id="about" href="about.html">About</a></li>
+        <li><a id="contact" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!--Video hero banner-->
+  <div class="video-container banner">
+    <!-- The video -->
+    <video autoplay muted loop id="myVideo">
+      <source src="Assets/images/revelation.mp4" type="video/mp4">
+    </video>
+
+
+    <main>
+      <!--Contact me button. Not yet working.-->
+      <!-- <div><a id="contactBtn" class="waves-effect waves-light btn btn-floating">Contact Me</i></a> -->
+
+      <!-- Tap Target Structure -->
+      <!-- <div class="tap-target" data-target="contactBtn">
+        <div class="tap-target-content">
+          <h5>How To Reach Me</h5>
+          <p>408.455.5643</p>
+          <p>jeniferjayme@gmail.com</p>
+          <p>LinkedIn</p>
+        </div>
+      </div>
+    </div> -->
+
+      <!--Container with project cards.-->
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h3>Portfolio</h3>
+          </div>
+        </div>
+        <!--end row 1-->
+
+        <!--First row of cards-->
+        <div class="row">
+          <!--Left Column: Trivia Game Card-->
+          <div class="col s4 m4 l4">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="Assets/images/got-min.jpg"
+                  alt="sketch of two people with question mark and word trivia between">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Game of Thrones Quiz<i
+                    class="material-icons right detail-label">details</i></span>
+                <p><a href="#">link placeholder</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Game of Thrones Quiz<i
+                    class="material-icons right">close</i></span>
+                <p>A fun trivia game centered on the blockbuster books and HBO series.</p>
+              </div>
+            </div>
+          </div>
+
+          <!--Right Column: Info Widget-->
+          <div class="col s4 m4 l4">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="Assets/images/project-miles.png" alt="toolbox">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Project Miles<i
+                    class="material-icons right detail-label">details</i></span>
+                <p><a href="https://jenjayme.github.io/Project1_CGJK/">demo</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Project Miles<i
+                    class="material-icons right">close</i></span>
+                <p>An app to promote healthy choices for teens by gamifying their daily choices and incorporating a
+                  superhero theme.</p>
+              </div>
+            </div>
+          </div>
+
+          <!--Far Right Column: Image-->
+          <div class="col s4 m4 l4">
+            <img src="Assets/images/eye.jpg" class="photos responsive-img" id="photo-eye" />
+          </div>
+        </div>
+        <!--end row 1-->
+
+        <!--Second row of cards.-->
+        <div class="row">
+          <!--Left Column: Image-->
+          <div class="col s4 m4 l4">
+            <img src="Assets/images/cole-step.jpg" class="photos right responsive-img" id="photo-cole" />
+          </div>
+          <!--Left Column: Word Guess Game Card-->
+          <div class="col s4 m4 l4">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="Assets/images/wordguess.jpg" alt="pile of scrabble letters">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Word Guess<i
+                    class="material-icons right detail-label">details</i></span>
+                <p><a href="#">link placeholder</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Word Guess Game<i
+                    class="material-icons right">close</i></span>
+                <p>Project description forthcoming.</p>
+              </div>
+            </div>
+          </div>
+
+          <!--Right Column: RPG Game Card-->
+          <div class="col s4 m4 l4">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="Assets/images/rpg.jpg" alt="mountain landscape">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Role Player Game<i
+                    class="material-icons right detail-label">details</i></span>
+                <p><a href="#">link placeholder</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Role Player Game<i
+                    class="material-icons right">close</i></span>
+                <p>Project description forthcoming.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--end row 2-->
+
+        <!--Third row of cards.-->
+        <div class="row">
+          <!--Left Column: Rock Paper Scissors Game-->
+          <div class="col s4 m4 l4">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="Assets/images/rock-paper-scissors.jpg" alt="toolbox">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Rock Paper Scissors Game<i
+                    class="material-icons right detail-label">details</i></span>
+                <p><a href="#">link placeholder</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Rock Paper Scissors Game<i
+                    class="material-icons right">close</i></span>
+                <p>Project description forthcoming.</p>
+              </div>
+            </div>
+          </div>
+
+          <!--Right Column: Info Widget-->
+          <div class="col s4 m4 l4">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="Assets/images/widget.jpg" alt="toolbox">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Info Widget<i
+                    class="material-icons right detail-label">details</i></span>
+                <p><a href="#">link placeholder</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Info Widget<i
+                    class="material-icons right">close</i></span>
+                <p>Project description forthcoming.</p>
+              </div>
+            </div>
+          </div>
+
+          <!--Far Right Column: Image-->
+          <div class="col s4 m4 l4">
+            <img src="Assets/images/jack.jpg" class="photos responsive-img" id="photo-jack" />
+          </div>
+
+        </div>
+        <!--end row 3-->
+
+      </div>
+      <!--end container-->
+    </main>
+
+    <footer class="page-footer pink darken-4">
+      <div class="container">
+        <div class="row">
+          <div class="col s5 m5 l5">
+            <h5 class="white-text">Web Development<br> Marketing | Communications</h5>
+            <p class="grey-text text-lighten-4">specializing in small businesses and nonprofit organizations</p>
+            <br>
+            <p class="grey-text text-lighten-1">Background photo by Felix Mittermeier courtesy of <a
+                href="https://pixabay.com">Pixabay</a>
+            </p>
+          </div>
+          <div class="col s4 m7 l7">
+            <h5 class="white-text">contact</h5>
+            <ul>
+              <li class="grey-text text-lighten-4">408.455.5643</li>
+              <li><a class="grey-text text-lighten-4" href="mailto: jeniferjayme@gmail.com">jeniferjayme@gmail.com</a>
+              </li>
+              <li><a class="grey-text text-lighten-4" href="https://www.linkedin.com/in/jenjayme/">LinkedIn</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          © Copyright
+        </div>
+      </div>
+    </footer>
+
+</body>
+</html>
