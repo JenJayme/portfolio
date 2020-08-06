@@ -16,7 +16,7 @@ h1 {
 }
 
 h3 {
-  color: #534949;
+  color: rgba(169, 160, 160, .85);
   border-color: #534949;
   border-bottom: #534949;
   border-bottom-style: solid;

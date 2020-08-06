@@ -33,7 +33,8 @@
   <!--Navigation Bar with sidebar slide-out function on mobile-->
   <nav>
     <div class="nav-wrapper black darken-4">
-      <a href="#" class="brand-logo center">Jen Jayme</a>
+      <img src="./Assets/images/jj-logo-md.png" class="brand-logo center responsive-img" style="width: 20%" alt="Jen Jayme"/>
+
       <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 
       <ul class="left hide-on-med-and-down">
@@ -45,14 +46,12 @@
   </nav>
 
   <!--Video hero banner-->
-  <div class="video-container banner">
+  <div>
     <!-- The video -->
     <video autoplay muted loop id="myVideo">
       <source src="Assets/images/revelation.mp4" type="video/mp4">
     </video>
 
-
-    <main>
       <!--Contact me button. Not yet working.-->
       <!-- <div><a id="contactBtn" class="waves-effect waves-light btn btn-floating">Contact Me</i></a> -->
 
@@ -78,11 +77,36 @@
 
         <!--First row of cards-->
         <div class="row">
-          <!--Left Column: Game of Thrones Trivia-->
+          <!--Left Column: Middle Ground-->
           <div class="col s4 m4 l4">
             <div class="card">
               <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="Assets/images/got-min.jpg"
+                <img class="activator" src="Assets/images/middle-ground.png"
+                  alt="black and white hands holding with Middle Ground logo">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Middle Ground<i
+                    class="material-icons right detail-label">details</i></span>
+                <p><a href="https://rocky-meadow-78317.herokuapp.com/">view demo</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Middle Ground<i
+                    class="material-icons grey-text right">close</i></span>
+                <p class="black-text">In today's America, constructive debate about social issues has broken down. We
+                  don’t just disagree on policies anymore. We disagree about what’s true, and what news can be trusted.
+                  <br>
+                  Middle|Ground aims to shine a light on the imbalanced and sometimes inaccurate news we receive through
+                  social media which inform our opinions, to promote greater perspective and dialogue about issues of
+                  social importance..</p>
+              </div>
+            </div>
+          </div>
+
+          <!--Game of Thrones Trivia-->
+          <div class="col s4 m4 l4">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="Assets/images/got-min.jpg.png"
                   alt="sketch of two people with question mark and word trivia between">
               </div>
               <div class="card-content">
@@ -112,17 +136,18 @@
               <div class="card-reveal">
                 <span class="card-title grey-text text-darken-4">Project Miles<i
                     class="material-icons grey-text right">close</i></span>
-                <p class="black-text">An app to promote healthy choices for teens by gamifying their daily choices and incorporating a
+                <p class="black-text">An app to promote healthy choices for teens by gamifying their daily choices and
+                  incorporating a
                   superhero theme.</p>
               </div>
             </div>
           </div>
 
           <!--Far Right Column: Image-->
-          <div class="col s4 m4 l4">
+          <!-- <div class="col s4 m4 l4">
             <img src="Assets/images/eye.jpg" class="photos responsive-img" id="photo-eye" />
           </div>
-        </div>
+        </div> -->
         <!--end row 1-->
 
         <!--Second row of cards.-->
@@ -131,7 +156,7 @@
           <div class="col s4 m4 l4">
             <div class="card">
               <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="Assets/images/rock-paper-scissors.jpg" alt="toolbox">
+                <img class="activator" src="Assets/images/weather-dash-img.png" alt="toolbox">
               </div>
               <div class="card-content">
                 <span class="card-title activator grey-text text-darken-4">Weather Dashboard<i
@@ -142,95 +167,138 @@
               <div class="card-reveal">
                 <span class="card-title grey-text text-darken-4">Weather Dashboard<i
                     class="material-icons grey-text right">close</i></span>
-                <p class="black-text">A live dashboard of weather conditions featuring a  five-day forecast, color-coded UV Index and ability to search weather conditions by any city.</p>
+                <p class="black-text">A live dashboard of weather conditions featuring a five-day forecast, color-coded
+                  UV Index and ability to search weather conditions by any city.</p>
               </div>
             </div>
           </div>
 
-          <!--Right Column: Info Widget-->
+          <!--Right Column: Virtuous Circle-->
           <div class="col s4 m4 l4">
             <div class="card">
               <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="Assets/images/widget.jpg" alt="toolbox">
+                <img class="activator" src="Assets/images/virtuous-circle.png" alt="toolbox">
               </div>
               <div class="card-content">
                 <span class="card-title activator grey-text text-darken-4">Virtuous Circle<i
                     class="material-icons right detail-label">details</i></span>
-                    <p><a href="https://virtuous-circle.herokuapp.com/">view demo</a></p>
+                <p><a href="https://virtuous-circle.herokuapp.com/">view demo</a></p>
               </div>
               <div class="card-reveal">
                 <span class="card-title grey-text text-darken-4">Virtuous Circle<i
                     class="material-icons right">close</i></span>
-                <p class="black-text">a solution to promote sharing of surplus fresh, local, sustainable food among pantries, restaurants and schools.</p>
+                <p class="black-text">a solution to promote sharing of surplus fresh, local, sustainable food among
+                  pantries, restaurants and schools.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s4 m4 l4">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="Assets/images/Private Benjamin.jpg" alt="toolbox">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Coding Boot Camp: The Good, the Bad and the Ugly<i
+                    class="material-icons right detail-label">summary</i></span>
+                <p><a href="https://medium.com/@jenshelnuttjayme/coding-boot-camp-the-good-the-bad-and-the-ugly-fa48bbf7d7ee">full article</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Coding Boot Camp: The Good, the Bad and the Ugly<i
+                    class="material-icons right">close</i></span>
+                <p class="black-text">a memoir of my first weeks in coding boot camp.</p>
               </div>
             </div>
           </div>
 
           <!--Far Right Column: Image-->
-          <div class="col s4 m4 l4">
+          <!-- <div class="col s4 m4 l4">
             <img src="Assets/images/jack.jpg" class="photos responsive-img" id="photo-jack" />
-          </div>
+          </div> -->
 
         </div>
         <!--end row 3-->
 
-                <!--Third row of cards-->
-                <div class="row">
-                  <!--Left Column: Middle Ground-->
-                  <div class="col s4 m4 l4">
-                    <div class="card">
-                      <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="Assets/images/got-min.jpg"
-                          alt="black and white hands holding with Middle Ground logo">
-                      </div>
-                      <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Middle Ground<i
-                            class="material-icons right detail-label">details</i></span>
-                        <p><a href="https://rocky-meadow-78317.herokuapp.com/">view demo</a></p>
-                      </div>
-                      <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Middle Ground<i
-                            class="material-icons grey-text right">close</i></span>
-                        <p class="black-text">In today's America, constructive debate about social issues has broken down. We don’t just disagree on policies anymore. We disagree about what’s true, and what news can be trusted.  <br>
-                        Middle|Ground aims to shine a light on the imbalanced and sometimes inaccurate news we receive through social media which inform our opinions, to promote greater perspective and dialogue about issues of social importance..</p>
-                      </div>
-                    </div>
-                  </div>
-        
-        
-
-      </div>
-      <!--end container-->
-    </main>
-
-    <footer class="page-footer black darken-4">
-      <div class="container">
+        <!--Third row of cards-->
         <div class="row">
-          <div class="col s5 m5 l5">
-            <h5 class="white-text">Web Development<br> Marketing | Communications</h5>
-            <p class="grey-text text-lighten-4">specializing in small businesses and nonprofit organizations</p>
-            <br>
-            <p class="grey-text text-lighten-1">Background photo by Felix Mittermeier courtesy of <a
-                href="https://pixabay.com">Pixabay</a>
-            </p>
+          <!--Left Column: Blog Post-->
+          <div class="col s4 m4 l4">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="Assets/images/jazz-musician.jpg"
+                  alt="black and white hands holding with Middle Ground logo">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Coding and the Pursuit of Flow<i
+                    class="material-icons right detail-label">summary</i></span>
+                <p><a href="https://medium.com/@jenshelnuttjayme/coding-and-the-pursuit-of-flow-f03294f16a9e?source=friends_link&sk=1e4f261ca1bf6fe50676f7390e626f08">full article</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Coding and the Pursuit of Flow<i
+                    class="material-icons grey-text right">close</i></span>
+                <p class="black-text">A discussion of the theory of "flow" and learning to code.</p>
+              </div>
+            </div>
           </div>
-          <div class="col s4 m7 l7">
-            <h5 class="white-text">contact</h5>
-            <ul>
-              <li class="grey-text text-lighten-4">408.455.5643</li>
-              <li><a class="grey-text text-lighten-4" href="mailto: jeniferjayme@gmail.com">jeniferjayme@gmail.com</a>
-              </li>
-              <li><a class="grey-text text-lighten-4" href="https://www.linkedin.com/in/jenjayme/">LinkedIn</a></li>
-            </ul>
-          </div>
+
+
+          <!--Left Column: Middle Ground-->
+          <!-- <div class="col s4 m4 l4">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="Assets/images/got-min.jpg"
+                  alt="black and white hands holding with Middle Ground logo">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Middle Ground<i
+                    class="material-icons right detail-label">details</i></span>
+                <p><a href="https://rocky-meadow-78317.herokuapp.com/">view demo</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Middle Ground<i
+                    class="material-icons grey-text right">close</i></span>
+                <p class="black-text">In today's America, constructive debate about social issues has broken down. We
+                  don’t just disagree on policies anymore. We disagree about what’s true, and what news can be trusted.
+                  <br>
+                  Middle|Ground aims to shine a light on the imbalanced and sometimes inaccurate news we receive through
+                  social media which inform our opinions, to promote greater perspective and dialogue about issues of
+                  social importance..</p>
+              </div>
+            </div>
+          </div> -->
         </div>
       </div>
-      <div class="footer-copyright">
-        <div class="container">
-          © Copyright
+  <!--end container-->
+
+  <footer class="page-footer black darken-4">
+    <div class="container">
+      <div class="row">
+        <div class="col s5 m5 l5">
+          <h5 class="white-text">Web Development<br> Marketing | Communications</h5>
+          <p class="grey-text text-lighten-4">specializing in small businesses and nonprofit organizations</p>
+          <br>
+          <p class="grey-text text-lighten-1">Background photo by Felix Mittermeier courtesy of <a
+              href="https://pixabay.com">Pixabay</a>
+          </p>
+        </div>
+        <div class="col s4 m7 l7">
+          <h5 class="white-text">contact</h5>
+          <ul>
+            <li class="grey-text text-lighten-4">408.455.5643</li>
+            <li><a class="grey-text text-lighten-4" href="mailto: jeniferjayme@gmail.com">jeniferjayme@gmail.com</a>
+            </li>
+            <li><a class="grey-text text-lighten-4" href="https://www.linkedin.com/in/jenjayme/">LinkedIn</a></li>
+          </ul>
         </div>
       </div>
-    </footer>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        © Copyright
+      </div>
+    </div>
+  </footer>
 
 </body>
+
 </html>
