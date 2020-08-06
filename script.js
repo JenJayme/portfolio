@@ -76,7 +76,6 @@ function bioPop() {
 $(document).ready(function () {
     "use strict";
     // M.AutoInit();
-    $('.collapsible').collapsible();
     setUp();
     startonPauseVid();
     // $('.tap-target').tapTarget();
