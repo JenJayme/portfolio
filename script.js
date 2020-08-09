@@ -54,29 +54,38 @@ function setUp() {
         var instances = M.Sidenav.init(elems, options);
     });
 
+    document.addEventListener('DOMContentLoaded', function () {
+        var contactBtn = document.getElementById('contactBtn');
+        $('contactBtn').on('click', function () {
+            open('.tap-target');
+            console.log('ContactBtn clicked');
+    });
+
     // Initialize collapsible (uncomment the lines below if you use the dropdown variation)
     var collapsibleElem = document.querySelector('.collapsible');
     var collapsibleInstance = M.Collapsible.init(collapsibleElem, open);
 
-}
-
-function bioPop() {
-    "use strict";
-    $('#aboutBtn').click(function () {
-        $('popOutRow').removeClass('hidden');
-        $('popOutRow').addClass('visible');
-        console.log('Running bioPop function.');
-        $('#biocard').removeClass('scale-out');
-        $('#biocard').addClass('scale-in');
-        console.log('Scale-in class added to biocard.');
     });
 }
+
+// function bioPop() {
+//     "use strict";
+//     $('#aboutBtn').click(function () {
+//         $('popOutRow').removeClass('hidden');
+//         $('popOutRow').addClass('visible');
+//         console.log('Running bioPop function.');
+//         $('#biocard').removeClass('scale-out');
+//         $('#biocard').addClass('scale-in');
+//         console.log('Scale-in class added to biocard.');
+//     });
+// }
 
 
 $(document).ready(function () {
     "use strict";
     // M.AutoInit();
+    $('.carousel').carousel();
     setUp();
     startonPauseVid();
-    // $('.tap-target').tapTarget();
+    $('.modal').modal();
 });
