@@ -84,8 +84,11 @@ function setUp() {
 $(document).ready(function () {
     "use strict";
     // M.AutoInit();
-    $('.carousel').carousel();
     setUp();
     startonPauseVid();
     $('.modal').modal();
+    $('.carousel').carousel().carousel({
+        shift: -100,
+        dist: -100,
+      });
 });
