@@ -14,6 +14,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Cabin&family=Inconsolata&family=Nunito&family=Nunito+Sans&family=Pacifico&family=Quicksand&family=Rubik&family=VT323&display=swap"
     rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 </head>
 
@@ -31,7 +32,7 @@
         <li><a id="home" href="index.html">HOME</a></li>
         <li><a id="about" href="about.html">ABOUT</a></li>
         <!-- <li><a id="contact" href="contact.html">Contact</a></li> -->
-        <li><button data-target="modal1" class="btn modal-trigger black white-text">Contact Me</button></li>
+        <li><button data-target="contactModal" class="btn modal-trigger black white-text">CONTACT ME</button></li>
       </ul>
     </div>
   </nav>
@@ -43,17 +44,23 @@
       <source src="Assets/images/revelation.mp4" type="video/mp4">
     </video>
 
-    <!-- Modal Trigger -->
+    <!-- CONTACT MODAL -->
 
-    <div id="modal1" class="modal pink darken-4 white-text">
+    <div id="contactModal" class="modal pink darken-4 white-text">
       <div class="modal-content">
-        <ul><h5>How To Reach Me</h5></ul>
-        <li>408.455.5643</li>
-        <li>jen@jaymedev.com</li>
-        <li><a href="http://www.linkedin.com/in/jenjayme">linkedin/in/jenjayme</a></li>
+        <table>
+          <thead><h5>How To Reach Me</h5></thead>
+          <tbody>
+            <tr></tr>
+            <td><i class="material-icons">phone</i>408.455.5643</td>
+            <td><i class="material-icons">email</i>jen@jaymedev.com</td>
+            <td><img src="Assets/images/LI-In-Bug.png" class="myIcons" /><a href="http://www.linkedin.com/in/jenjayme">linkedin/in/jenjayme</a></td>
+            <td><img src="Assets/images/Github-Bug.png" class="myIcons" /><a href="http://www.github.com/jenjayme">github/jenjayme</a></td>
+        </tbody>
+        </table>
       </div>
-      <div class="modal-footer">
-        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+      <div class="modal-footer pink darken-3">
+        <a href="#!" class="modal-close waves-effect waves-black btn-flat">Close</a>
       </div>
     </div>
 

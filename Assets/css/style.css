@@ -101,6 +101,11 @@ footer {
     padding-bottom: 20px;
   }
 
+  .myIcons {
+    height: 1.6em;
+    width: auto;
+  }
+
   .name {
     font-size: 40px;
   }
